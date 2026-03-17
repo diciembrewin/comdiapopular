@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comida Colombiana</title>
+
+<style>
+
+/* 🔥 SIN SCROLL HORIZONTAL */
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+/* ---------------- HEADER ---------------- */
+header {
+    width: 100%;
+    background: #020617;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+header .icon {
+    font-size: 28px;
+}
+
+/* ---------------- HERO ---------------- */
+.hero {
+    background: #1e293b;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    font-weight: 300;
+}
+
+.hero button {
+    margin-top: 30px;
+    padding: 14px 40px;
+    background: #2563eb;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.hero button:hover {
+    background: #1d4ed8;
+    transform: scale(1.05);
+}
+
+/* ---------------- FOOTER ---------------- */
+footer {
+    background: #020617;
+    padding: 30px 20px;
+    color: #94a3b8;
+}
+
+footer h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.footer-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-icon {
+    width: 60px;
+    height: 60px;
+    background: #1e293b;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+
+footer .text {
+    font-size: 18px;
+}
+
+/* Enlace legal */
+.legal {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.legal a {
+    color: #3b82f6;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.legal a:hover {
+    text-decoration: underline;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <span class="icon">&#9776;</span>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <h1>Comida Colombiana</h1>
+    <button onclick="window.location.href='menu.html'">Ingresar menú</button>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <h3>Tu Popular</h3>
+
+    <div class="footer-box">
+        <div class="footer-icon">😊</div>
+        <span class="text">Personas colombianas</span>
+    </div>
+
+    <div class="legal">
+        <a href="terminos.html">Términos y Condiciones</a>
+    </div>
+</footer>
+
+</body>
+</html>
